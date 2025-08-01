@@ -14,7 +14,7 @@ public class King extends Hero {
 
     @Override
     public void applySuperAbility(Boss boss, Hero[] heroes) {
-        // King не наносит урон, но с шансом 10% призывает Saitama
+
         int chance = RPG_Game.random.nextInt(100);
         if (chance < 10) {
             System.out.println(getName() + " призывает Saitama!");
