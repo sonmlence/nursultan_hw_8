@@ -16,7 +16,7 @@ public class King extends Hero {
     public void applySuperAbility(Boss boss, Hero[] heroes) {
 
         int chance = RPG_Game.random.nextInt(100);
-        if (chance < 10) {
+        if (chance < 20) {
             System.out.println(getName() + " призывает Saitama!");
             Saitama saitama = new Saitama(1, 1000, "Saitama");
             saitama.superPowerKillBoss(boss);
