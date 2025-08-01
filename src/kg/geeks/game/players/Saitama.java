@@ -6,7 +6,7 @@ public class Saitama extends Hero {
         super(health, damage, name, SuperAbility.SUPER_KILL);
     }
 
-    // Метод, который убивает босса с одного удара
+
     public void superPowerKillBoss(Boss boss) {
         boss.setHealth(0);
         System.out.println(getName() + " убивает босса с одного удара!");
